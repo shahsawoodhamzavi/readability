@@ -1,0 +1,56 @@
+html
+{
+	font-family: Arial;
+	background-image: url('images/background.jpg');
+	background-position: center;
+	background-size: cover;
+	background-clip: content-box;
+	background-attachment: fixed;
+}
+#title
+{
+	font-size: 35px;
+	padding: 25px 50px 25px 50px;
+	letter-spacing: 5px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 800;
+	background-color: rgba(25, 205, 255, 0.9);
+}
+
+#input
+{
+	width: 99%;
+	min-height: 200px;
+	padding: 5px;
+	font-size: 18px;
+	background-color: rgba(245, 245, 245, 1);
+	resize: vertical;
+	border: 0px solid black;
+	border-radius: 2px;
+}
+
+.label
+{
+	background-color: rgba(25, 205, 255, 0.9);
+	border-style: groove;
+	font-size: 1em;
+	margin-top: 5px;
+	width: 15%;
+	color: whitesmoke;
+	line-height: 150%;
+	border-radius: 5px;
+}
+.btn
+{
+	border-style: ridge;
+	font-size: 110%;
+	margin-top: 5px;
+	width: 15%;
+	line-height: 150%;
+	border-radius: 5px;
+}
+.btn-opt
+{
+	margin-bottom: 5%;
+}
