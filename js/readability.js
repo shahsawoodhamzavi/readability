@@ -19,28 +19,30 @@ function calcSentence(text) {
 }
 
 function calcGrade() {
-    const text = document.querySelector('#input').value;
+    const text = document.querySelector('textarea').value;
     if (text.length > 0) {
         const chars = calcChar(text);
         const words = calcWord(text);
         const sentences = calcSentence(text);
         var grade = Math.round(0.0588 * ((chars / words) * 100) - 0.296 * ((sentences / words) * 100) - 15.8);
-        const result = document.querySelector('#result');
+        const result = document.querySelector('input');
         if (grade < 1)
-            result.innerText = 'Before grade 1';
-        else if (grade <= 16)
-            result.innerText = grade;
+            result.value = 'Before grade 1';
+        else if (grade <= 16) {
+            result.value = grade;
+        }
+
         else
-            result.innerText = '16+';
+            result.value = grade;
         return grade;
     }
 }
 
 function clearText() {
-    document.querySelector('#input').value = '';
+    document.querySelector('textarea').value = '';
 }
 
 function reset() {
-    document.querySelector('#input').value = '';
-    document.querySelector('#result').innerText = 'Enter your text above';
+    document.querySelector('textarea').value = '';
+    document.querySelector('input').value = '';
 }

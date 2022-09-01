@@ -1,5 +1,4 @@
 html {
-    font-family: Arial;
     background-image: url('../images/background.jpg');
     background-position: center;
     background-size: cover;
@@ -8,30 +7,10 @@ html {
 }
 
 h1 {
-    font-size: 2.2rem;
-    padding: 1.5rem 3rem;
-    letter-spacing: 5px;
-    font-family: sans-serif;
-    font-weight: 800;
+    letter-spacing: 5px !important;
     background-color: rgba(25, 205, 255, 0.9);
 }
 
-#input {
-    min-height: 200px;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 5px;
-    font-size: 18px;
-    background-color: rgba(245, 245, 245, .92);
-    resize: vertical;
-    border: 0px solid black;
-    border-radius: 2px;
-}
-
-.text-center {
-    text-align: center !important
-}
-
-.text-end {
-    text-align: right !important
+textarea {
+    background-color: rgba(245, 245, 245, .92) !important;
 }
