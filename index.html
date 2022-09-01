@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Readability</title>
-		<link href="css/readability.css" rel="stylesheet">
-	</head>
-	<body>
-		<h1 id="title">Readability</h1>
-		<textarea id="input">Enter your text here.</textarea>
-		<div style="text-align:right;">
-			<button class="btn-opt btn" onclick="reset_all();">reset</button>
-			<button class="btn-opt btn" onclick="calc_grade();">calculate</button>
-			<button class="btn-opt btn" onclick="clear_box();">clear</button>
-		</div>
-			<div style="text-align: center;">
-			<button class="label">Characters</button>
-			<button class="btn" id="l">0</button><br>
-			<button class="label second">Words</button>
-			<button class="btn" id="w">0</button><br>
-			<button class="label">Sentences</button>
-			<button class="btn" id="s">0</button><br>
-			<button class="label">Paragraphs</button>
-			<button class="btn" id="p">0</button><br>
-			<button class="label">Grade</button>
-			<button class="btn" id="result">0</button>
-		</div>
-		<script src="js/readability.js"></script>
-	</body>
+
+<head>
+    <title>Readability</title>
+    <link href="css/readability.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="text-center">Readability</h1>
+    <textarea id="input" placeholder="Enter your text here."></textarea>
+    <div class="btn-group text-end">
+        <button class="btn btn-opt" onclick="reset()">reset</button>
+        <button class="btn btn-opt" onclick="calcGrade();" onchange="calcGrade();" onkeypress="calcGrade();">calculate</button>
+        <button class="btn btn-opt" onclick="clearText();">clear</button>
+    </div>
+    <div class="text-center">
+        <button class="label">Grade</button>
+        <button class="btn" id="result">Enter your text above</button>
+    </div>
+    <script src="js/readability.js"></script>
+</body>
+
 </html>
