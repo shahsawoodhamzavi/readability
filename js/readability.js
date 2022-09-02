@@ -34,7 +34,8 @@ function calcGrade() {
         else
             result.value = "16+";
         return grade;
-    }
+    } else
+        reset();
 }
 
 function clearText() {
