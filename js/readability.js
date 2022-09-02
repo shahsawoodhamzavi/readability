@@ -52,4 +52,5 @@ function pasteText() {
     .then(clipText => {
         document.querySelector('textarea').value = clipText;
     });
+    calcGrade();
 }
