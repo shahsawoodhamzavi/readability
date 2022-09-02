@@ -17,11 +17,11 @@ index = 0.0588 * L - 0.296 * S - 15.8
 Here, L is the average number of letters per 100 words in the text, and S is the average number of sentences per 100 words in the text.
 
 ## Usage
-For example, if user types in a line from Dr. Seuss:
+For example, if user types in a line from Dr. Seuss into our Textbox:
 ```
 Congratulations! Today is your day. You're off to Great Places! You're off and away!
 Grade 3
 ```
 
 ## Demonstration
-(images/1.p)
+![](./images/1.png)
