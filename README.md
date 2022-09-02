@@ -39,4 +39,4 @@ Grade 3
 * ```A large class of computational problems involve the determination of properties of graphs, digraphs, integers, arrays of integers, finite families of finite sets, boolean formulas and elements of other countable domains.``` (Grade 16+)
 
 
-Please note that readability is a [pset](https://cs50.harvard.edu/x/2021/psets/2/readability/) in cs50x implemented in C.
+Please note that readability is a [pset](https://cs50.harvard.edu/x/2021/psets/2/readability/) in [cs50x](https://cs50.harvard.edu/x/2021/) implemented in C.
