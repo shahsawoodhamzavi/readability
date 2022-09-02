@@ -31,9 +31,8 @@ function calcGrade() {
         else if (grade <= 16) {
             result.value = grade;
         }
-
         else
-            result.value = grade;
+            result.value = "16+";
         return grade;
     }
 }
