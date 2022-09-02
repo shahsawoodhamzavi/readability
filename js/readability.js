@@ -45,3 +45,10 @@ function reset() {
     document.querySelector('textarea').value = '';
     document.querySelector('input').value = '';
 }
+
+function pasteText() {
+    navigator.clipboard.readText()
+    .then(clipText => {
+        document.querySelector('textarea').value = clipText;
+    });
+}
